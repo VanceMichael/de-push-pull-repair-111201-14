@@ -1,0 +1,13 @@
+{
+  "events": [
+    {
+      "source": "provider-a",
+      "epoch": "e1",
+      "sequence": 1,
+      "resource": "r1",
+      "revision": 1,
+      "operation": "upsert",
+      "value": "测点甲"
+    }
+  ]
+}

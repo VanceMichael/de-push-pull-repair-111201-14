@@ -1,0 +1,36 @@
+{
+  "repairs": [
+    {
+      "source": "a",
+      "epoch": "e1",
+      "range": [
+        2,
+        4
+      ],
+      "complete": false,
+      "items": [
+        {
+          "resource": "r",
+          "revision": 3
+        }
+      ]
+    },
+    {
+      "source": "a",
+      "epoch": "e1",
+      "range": [
+        2,
+        4
+      ],
+      "complete": true,
+      "terminal": "end-1",
+      "items": [
+        {
+          "resource": "r",
+          "revision": 4,
+          "deleted": true
+        }
+      ]
+    }
+  ]
+}

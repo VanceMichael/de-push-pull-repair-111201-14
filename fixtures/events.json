@@ -1,0 +1,36 @@
+{
+  "events": [
+    {
+      "source": "a",
+      "epoch": "e1",
+      "sequence": 1,
+      "resource": "r",
+      "revision": 1,
+      "operation": "upsert"
+    },
+    {
+      "source": "a",
+      "epoch": "e1",
+      "sequence": 4,
+      "resource": "r",
+      "revision": 4,
+      "operation": "delete"
+    },
+    {
+      "source": "a",
+      "epoch": "e1",
+      "sequence": 2,
+      "resource": "r",
+      "revision": 2,
+      "operation": "upsert"
+    },
+    {
+      "source": "a",
+      "epoch": "e2",
+      "sequence": 1,
+      "resource": "s",
+      "revision": 1,
+      "operation": "upsert"
+    }
+  ]
+}
